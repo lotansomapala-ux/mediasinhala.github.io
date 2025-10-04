@@ -13,19 +13,19 @@
         "warningColor": "#ff8f00",
         "dangerColor": "#ffdc00",
         "mainFont": "Inter",
-        "display1Font": "Noto Serif Sinhala",
-        "display1Size": "1.6",
-        "display2Font": "Montserrat",
+        "display1Font": "Abril Fatface",
+        "display1Size": "1.8",
+        "display2Font": "Poppins",
         "display2Size": "2",
-        "display5Font": "Montserrat",
+        "display5Font": "Poppins",
         "display5Size": "1.2",
-        "display7Font": "Noto Serif Sinhala",
-        "display7Size": 1.2,
-        "display4Font": "Montserrat",
-        "display4Size": "1",
+        "display7Font": "Poppins",
+        "display7Size": "1",
+        "display4Font": "Poppins",
+        "display4Size": "1.2",
         "isRoundedButtons": true,
         "isScrollToTopButton": false,
-        "arrowColor": "#005af0"
+        "arrowColor": "#ffdc00"
       },
       "additionalSetColors": [
         "#37374c",
@@ -61,14 +61,54 @@
         "css": "'Noto Serif Sinhala', serif",
         "name": "Noto Serif Sinhala",
         "url": "https://fonts.googleapis.com/css?family=Noto+Serif+Sinhala:100,200,300,400,500,600,700,800,900"
+      },
+      {
+        "css": "'Poppins', sans-serif",
+        "name": "Poppins",
+        "url": "https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      },
+      {
+        "css": "'Archivo Black', sans-serif",
+        "name": "Archivo Black",
+        "url": "https://fonts.googleapis.com/css?family=Archivo+Black:400"
+      },
+      {
+        "css": "'Bungee', display",
+        "name": "Bungee",
+        "url": "https://fonts.googleapis.com/css?family=Bungee:400"
+      },
+      {
+        "css": "'Righteous', display",
+        "name": "Righteous",
+        "url": "https://fonts.googleapis.com/css?family=Righteous:400"
+      },
+      {
+        "css": "'Anton', sans-serif",
+        "name": "Anton",
+        "url": "https://fonts.googleapis.com/css?family=Anton:400"
+      },
+      {
+        "css": "'Bebas Neue', sans-serif",
+        "name": "Bebas Neue",
+        "url": "https://fonts.googleapis.com/css?family=Bebas+Neue:400"
+      },
+      {
+        "css": "'Dela Gothic One', display",
+        "name": "Dela Gothic One",
+        "url": "https://fonts.googleapis.com/css?family=Dela+Gothic+One:400"
+      },
+      {
+        "css": "'Abril Fatface', display",
+        "name": "Abril Fatface",
+        "url": "https://fonts.googleapis.com/css?family=Abril+Fatface:400"
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 248,
+    "uniqCompNum": 256,
     "versionPublish": "6.1.4",
     "screenshot": "screenshot.png",
     "favicon": false,
-    "mbrsiteDomain": "qyx3zprmfu",
+    "mbrsiteDomain": "8csopqijid",
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
@@ -288,7 +328,7 @@
           },
           "_name": "features2",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"features2 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked=\"\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" value=\"#005af0\" name=\"twoColorBg\" condition=\"twoColor &amp;&amp; bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"\" mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 md-pb': cardsAmount == 3,\n                             'mbr-col-lg-3 md-pb': cardsAmount == 4,\n                             'last-child': cardsAmount == 1}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/grade-12-png-1-816x459.png\" layout=\"responsive\" width=\"348\" height=\"195.75\" alt=\"Media University Grade 12\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grade-12-png-1-816x459.png\" alt=\"Media University Grade 12\" data-aspectratio=\"0.5625\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-p-5\" mbr-if=\"showTitle || showText || showButtons\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold\" mbr-class=\"{'mbr-pb-1':showText}\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                            Grade 12</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left mbr-pb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-danger\" href=\"Grade 12.html\" data-app-placeholder=\"Type Text\">Select A Lesson&nbsp;</a></div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 md-pb': cardsAmount == 3,\n                             'mbr-col-lg-3 md-pb': cardsAmount == 4,\n                             'last-child': cardsAmount == 2}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/grade-13-png-1-816x459.png\" layout=\"responsive\" height=\"195.75\" width=\"348\" alt=\"Media University Grade 13\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grade-13-png-1-816x459.png\" alt=\"Media University Grade 13\" data-aspectratio=\"0.5625\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-p-5\" mbr-if=\"showTitle || showText || showButtons\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold\" mbr-class=\"{'mbr-pb-1':showText}\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                            Grade 13</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left mbr-pb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-danger\" href=\"Grade 13.html\" data-app-placeholder=\"Type Text\">Select A Lesson&nbsp;</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/micheile-henderson-zvprbbmt8qa-unsplash-696x464.jpg\" layout=\"responsive\" height=\"232\" width=\"348\" alt=\"finance-selsct-img\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/micheile-henderson-zvprbbmt8qa-unsplash-696x464.jpg\" alt=\"finance-selsct-img\" data-aspectratio=\"0.6666666666666666\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-p-5\" mbr-if=\"showTitle || showText || showButtons\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold\" mbr-class=\"{'mbr-pb-1':showText}\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                            Financial</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left mbr-pb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Publishers and advertisers can decide how to present their content and what technology vendors to use, all while maintaining and improving key performance indicators.\n                        </p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-info-outline\" href=\"page51.html\" data-app-placeholder=\"Type Text\">\n                                Learn More\n                            </a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/01.jpg\" layout=\"responsive\" height=\"9\" width=\"16\" alt=\"Mobirise Website Builder\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/01.jpg\" alt=\"Mobirise Website Builder\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-p-5\" mbr-if=\"showTitle || showText || showButtons\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold\" mbr-class=\"{'mbr-pb-1':showText}\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                            Results\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left mbr-pb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Publishers and advertisers can decide how to present their content and what technology vendors to use, all while maintaining and improving key performance indicators.\n                        </p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                Learn More\n                            </a></div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features2 mbr-section\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked=\"\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" value=\"#005af0\" name=\"twoColorBg\" condition=\"twoColor &amp;&amp; bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"\" mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 md-pb': cardsAmount == 3,\n                             'mbr-col-lg-3 md-pb': cardsAmount == 4,\n                             'last-child': cardsAmount == 1}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/grade-12-png-1-816x459.png\" layout=\"responsive\" width=\"348\" height=\"195.75\" alt=\"Media University Grade 12\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grade-12-png-1-816x459.png\" alt=\"Media University Grade 12\" data-aspectratio=\"0.5625\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-p-5\" mbr-if=\"showTitle || showText || showButtons\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold\" mbr-class=\"{'mbr-pb-1':showText}\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                            Grade 12</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left mbr-pb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-danger\" href=\"Grade 12.html\" data-app-placeholder=\"Type Text\">Select A Lesson&nbsp;</a></div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4 md-pb': cardsAmount == 3,\n                             'mbr-col-lg-3 md-pb': cardsAmount == 4,\n                             'last-child': cardsAmount == 2}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/grade-13-png-1-816x459.png\" layout=\"responsive\" height=\"195.75\" width=\"348\" alt=\"Media University Grade 13\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/grade-13-png-1-816x459.png\" alt=\"Media University Grade 13\" data-aspectratio=\"0.5625\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-p-5\" mbr-if=\"showTitle || showText || showButtons\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold\" mbr-class=\"{'mbr-pb-1':showText}\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                            Grade 13</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left mbr-pb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-danger\" href=\"Grade 13.html\" data-app-placeholder=\"Type Text\">Select A Lesson&nbsp;</a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/micheile-henderson-zvprbbmt8qa-unsplash-696x464.jpg\" layout=\"responsive\" height=\"232\" width=\"348\" alt=\"finance-selsct-img\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/micheile-henderson-zvprbbmt8qa-unsplash-696x464.jpg\" alt=\"finance-selsct-img\" data-aspectratio=\"0.6666666666666666\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-p-5\" mbr-if=\"showTitle || showText || showButtons\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold\" mbr-class=\"{'mbr-pb-1':showText}\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                            Financial</h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left mbr-pb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Publishers and advertisers can decide how to present their content and what technology vendors to use, all while maintaining and improving key performance indicators.\n                        </p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-info-outline\" href=\"financial-select.html\" data-app-placeholder=\"Type Text\">\n                                Learn More\n                            </a></div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount == 3,\n                             'mbr-col-lg-3': cardsAmount == 4,\n                             'last-child': cardsAmount == 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/01.jpg\" layout=\"responsive\" height=\"9\" width=\"16\" alt=\"Mobirise Website Builder\" class=\"mobirise-loader\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/01.jpg\" alt=\"Mobirise Website Builder\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-p-5\" mbr-if=\"showTitle || showText || showButtons\">\n                        <h4 class=\"mbr-section-title mbr-fonts-style align-left mbr-bold\" mbr-class=\"{'mbr-pb-1':showText}\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                            Results\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style align-left mbr-pb-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                            Publishers and advertisers can decide how to present their content and what technology vendors to use, all while maintaining and improving key performance indicators.\n                        </p>\n                        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-sm btn-black-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                Learn More\n                            </a></div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
           "_cid": "t6zgfCe4tX",
           "_anchor": "features2-3",
           "_protectedParams": [],
@@ -352,7 +392,7 @@
           },
           "_name": "info3",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"info3\" group=\"Info\" plugins=\"amp-main, amp-form, amp-mustache\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\" condition=\"showTitle || showSubtitle || showText || showButtons\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked=\"\">\n    <header>Form</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showFormTitle\" checked=\"\">\n    <input type=\"checkbox\" title=\"Text\" name=\"showFormText\" checked=\"\">\n    <input type=\"color\" title=\"Fields\" name=\"inputColor\" value=\"#ffffff\">\n    <input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#f7f7f7\">\n    <input type=\"color\" title=\"Text\" name=\"labelsColor\" value=\"#000000\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" required=\"\">\n        <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1371.png\">\n        <input type=\"color\" title=\"Color\" value=\"#f3f3f3\" selected=\"\">\n    </fieldset>\n    <!-- End block parameters -->\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n            <div class=\"title-wrap mbr-col-md-10 mbr-col-sm-12 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle || showText || showButtons\">\n                <div class=\"title-block\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">You Can Subscribe This Site&nbsp;</h3>\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Enter your subtitle here</h4>\n                    <p class=\"mbr-text mbr-fonts-style mbr-white mbr-pt-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    <div mbr-buttons=\"\" class=\"mbr-section-btn mbr-pt-3\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\"><a class=\"btn btn-danger\" data-app-placeholder=\"Type Text\" href=\"Contact Us.html\">Contact Us</a></div>\n                </div>\n            </div>\n            <div mbr-form=\"\" class=\"form-wrap mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-10 mbr-col-lg-4': showTitle || showSubtitle || showText || showButtons, 'mbr-col-md-12': !showTitle &amp;&amp; !showSubtitle &amp;&amp; !showText &amp;&amp; !showButtons}\">\n<!--Formbuilder Form-->\n<form action=\"\" name=\"Mobirise Form\" method=\"post\" class=\"mbr-form\">\n<div class=\"mbr-form-row\">\n<div submit-success=\"\" class=\"mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n<template data-form-alert=\"\" type=\"amp-mustache\"> Subscription successful! </template>\n</div>\n<div submit-error=\"\" class=\"mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n<template data-form-alert=\"\" type=\"amp-mustache\"> Subscription failed! {{error}} </template>\n</div>\n</div>\n<div class=\"dragArea mbr-form-row\">\n<div class=\"mbr-col-lg-12\">\n<h3 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style form-title mbr-fonts-style mbr-white mbr-semibold mbr-pb-2\">Subscribe Now</h3>\n</div>\n<div class=\"mbr-col-lg-12\">\n<p mbr-theme-style=\"display-4\" class=\"mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style form-subtitle mbr-white\">Click on a form field to set your notification email.</p>\n</div>\n<div data-for=\"form[data][0][1]\" class=\"mbr-col-lg-8 mbr-col-md-12 mbr-col-sm-12 field \">\n<input type=\"hidden\" name=\"form[data][0][0]\" value=\"Email\">\n<input type=\"email\" name=\"form[data][0][1]\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-4\" class=\"field-input\" value=\"\">\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"mbr-col-lg-4 mbr-col-md-12 mbr-col-sm-12 mbr-section-btn field\"><a type=\"submit\" class=\"btn btn-form btn-danger\" data-app-placeholder=\"Type Text\">Send</a></div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"info3\" group=\"Info\" plugins=\"amp-main, amp-form, amp-mustache\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <header>Size</header>\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n    <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\" condition=\"showTitle || showSubtitle || showText || showButtons\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n    <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n    <header>Form</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showFormTitle\" checked>\n    <input type=\"checkbox\" title=\"Text\" name=\"showFormText\" checked>\n    <input type=\"color\" title=\"Fields\" name=\"inputColor\" value=\"#ffffff\">\n    <input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#f7f7f7\">\n    <input type=\"color\" title=\"Text\" name=\"labelsColor\" value=\"#000000\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" required>\n        <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1371.png\">\n        <input type=\"color\" title=\"Color\" value=\"#f3f3f3\" selected>\n    </fieldset>\n    <!-- End block parameters -->\n    <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\"></mbr-parameters>\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n            <div class=\"title-wrap mbr-col-md-10 mbr-col-sm-12 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle || showText || showButtons\">\n                <div class=\"title-block\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">You Can Subscribe This Site&nbsp;</h3>\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Enter your subtitle here</h4>\n                    <p class=\"mbr-text mbr-fonts-style mbr-white mbr-pt-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"></p>\n                    <div mbr-buttons class=\"mbr-section-btn mbr-pt-3\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\" mbr-if=\"showButtons\"><a class=\"btn btn-danger\" data-app-placeholder=\"Type Text\" href=\"Contact Us.html\">Contact Us</a></div>\n                </div>\n            </div>\n            <div mbr-form class=\"form-wrap mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-10 mbr-col-lg-4': showTitle || showSubtitle || showText || showButtons, 'mbr-col-md-12': !showTitle && !showSubtitle && !showText && !showButtons}\">\n<!--Formbuilder Form-->\n<form action name=\"Mobirise Form\" method=\"post\" class=\"mbr-form\">\n<div class=\"mbr-form-row\">\n<div submit-success class=\"mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n<template data-form-alert type=\"amp-mustache\"> Subscription successful! </template>\n</div>\n<div submit-error class=\"mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12\">\n<template data-form-alert type=\"amp-mustache\"> Subscription failed! {{error}} </template>\n</div>\n</div>\n<div class=\"dragArea mbr-form-row\">\n<div class=\"mbr-col-lg-12\">\n<h3 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style form-title mbr-fonts-style mbr-white mbr-semibold mbr-pb-2\">Subscribe Now</h3>\n</div>\n<div class=\"mbr-col-lg-12\">\n<p mbr-theme-style=\"display-4\" class=\"mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style mbr-fonts-style form-subtitle mbr-white\">Click on a form field to set your notification email.</p>\n</div>\n<div data-for=\"form[data][0][1]\" class=\"mbr-col-lg-8 mbr-col-md-12 mbr-col-sm-12 field \">\n<input type=\"hidden\" name=\"form[data][0][0]\" value=\"Email\">\n<input type=\"email\" name=\"form[data][0][1]\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-4\" class=\"field-input\" value>\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"mbr-col-lg-4 mbr-col-md-12 mbr-col-sm-12 mbr-section-btn field\"><a type=\"submit\" class=\"btn btn-form btn-danger\" data-app-placeholder=\"Type Text\">Send</a></div>\n</div>\n</form><!--Formbuilder Form-->\n</div>\n        </div>\n    </div>\n</section>",
           "_cid": "t6C6Z4FUkw",
           "_anchor": "info3-y",
           "_protectedParams": [],
@@ -387,7 +427,7 @@
     "About Us.html": {
       "settings": {
         "title": "About Us",
-        "order": "51",
+        "order": "53",
         "meta_descr": "About Us : Mediauniversitylk",
         "socialSharingUrl": "",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
@@ -602,7 +642,7 @@
     "page4.html": {
       "settings": {
         "title": "Privacy policy",
-        "order": "48",
+        "order": "50",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
       },
@@ -814,7 +854,7 @@
     "Contact Us.html": {
       "settings": {
         "title": "Contact Us",
-        "order": "47",
+        "order": "49",
         "meta_descr": "Contact Us : media University lk",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -1019,7 +1059,7 @@
     "Affiliate Disclosure.html": {
       "settings": {
         "title": "Affiliate Disclosure",
-        "order": "46",
+        "order": "48",
         "meta_descr": "Affiliate Disclosure : media university lk",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -1233,7 +1273,7 @@
     "Terms and Conditions.html": {
       "settings": {
         "title": "Terms and Conditions",
-        "order": "45",
+        "order": "47",
         "meta_descr": "Terms and Conditions : Mediauniversity lk",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -1447,7 +1487,7 @@
     "subscribe.html": {
       "settings": {
         "title": "subscribe",
-        "order": "44",
+        "order": "46",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
       },
@@ -1648,7 +1688,7 @@
     "Grade 12.html": {
       "settings": {
         "title": "Grade 12",
-        "order": "49",
+        "order": "51",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
       },
@@ -2153,7 +2193,7 @@
     "Grade 13.html": {
       "settings": {
         "title": "Grade 13",
-        "order": "50",
+        "order": "52",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
       },
@@ -2586,7 +2626,7 @@
     "Origin and evolution of the study of communication.html": {
       "settings": {
         "title": "Origin and evolution of the study of communication",
-        "order": "43",
+        "order": "45",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
       },
@@ -2799,7 +2839,7 @@
     "Lets identify the Mass Communication.html": {
       "settings": {
         "title": "Let's identify the Mass Communication",
-        "order": "42",
+        "order": "44",
         "meta_descr": "Let's identify the Mass Communication Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -3013,7 +3053,7 @@
     "Mass Media definition - ජන මාධ්‍ය නිර්වචනය.html": {
       "settings": {
         "title": "Mass Media definition",
-        "order": "41",
+        "order": "43",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
       },
@@ -3226,7 +3266,7 @@
     "The basis of communication Select.html": {
       "settings": {
         "title": "The basis of communication Select",
-        "order": "40",
+        "order": "42",
         "meta_descr": "The basis of communication Select mediauniversity lk | sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -3540,7 +3580,7 @@
     "2.1  The basis of communication.html": {
       "settings": {
         "title": "2.1  The basis of communication",
-        "order": "39",
+        "order": "41",
         "meta_descr": "2.1  The basis of communication sinhala | samarathunga adhikari | mediauniversity lk.com",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -3754,7 +3794,7 @@
     "2.2 The nature of communication.html": {
       "settings": {
         "title": "2.2 The nature of communication",
-        "order": "38",
+        "order": "40",
         "meta_descr": "2.2 The nature of communication | sinhala |",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -3968,7 +4008,7 @@
     "Elements of the communication process.html": {
       "settings": {
         "title": "Elements of the communication process",
-        "order": "37",
+        "order": "39",
         "meta_descr": "Elements of the communication process",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -4182,7 +4222,7 @@
     "2.4 Communication definitions.html": {
       "settings": {
         "title": "2.4 Communication definitions",
-        "order": "36",
+        "order": "38",
         "meta_descr": "2.4 Communication definitions | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -4396,7 +4436,7 @@
     "Mass Communication.html": {
       "settings": {
         "title": "Mass Communication",
-        "order": "35",
+        "order": "37",
         "meta_descr": "Mass Communication",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -4723,7 +4763,7 @@
     "Media and magic.html": {
       "settings": {
         "title": "Media and magic",
-        "order": "34",
+        "order": "36",
         "meta_descr": "Media and magic | sinhala ",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -4937,7 +4977,7 @@
     "Media culture select.html": {
       "settings": {
         "title": "Media culture Select",
-        "order": "31",
+        "order": "33",
         "meta_descr": "Media culture | sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -5177,7 +5217,7 @@
     "Folk culture.html": {
       "settings": {
         "title": "Folk culture",
-        "order": "30",
+        "order": "32",
         "meta_descr": "Folk culture | sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -5391,7 +5431,7 @@
     "Global culture.html": {
       "settings": {
         "title": "Global culture",
-        "order": "29",
+        "order": "31",
         "meta_descr": " sinhala Global culture sri lanka media ",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -5605,7 +5645,7 @@
     "Media Literacy and Media Criticism.html": {
       "settings": {
         "title": "Media Literacy and Media Criticism",
-        "order": "28",
+        "order": "30",
         "meta_descr": "Media Literacy and Media Criticism | sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -5882,7 +5922,7 @@
     "Reliability.html": {
       "settings": {
         "title": "Reliability",
-        "order": "26",
+        "order": "28",
         "meta_descr": "Reliability",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -6096,7 +6136,7 @@
     "Media Communication Analysis.html": {
       "settings": {
         "title": "Media Communication Analysis",
-        "order": "25",
+        "order": "27",
         "meta_descr": "Media Communication Analysis | sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -6310,7 +6350,7 @@
     "Effectiveness1 .html": {
       "settings": {
         "title": "Effectiveness 1",
-        "order": "32",
+        "order": "34",
         "meta_descr": "Effectiveness ",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -6524,7 +6564,7 @@
     "Media Literacy and Media Criticism Introduction.html": {
       "settings": {
         "title": "Media Literacy and Media Criticism Introduction",
-        "order": "27",
+        "order": "29",
         "meta_descr": "Media Literacy and Media Criticism&nbsp; Introduction",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -6738,7 +6778,7 @@
     "Creative communication select.html": {
       "settings": {
         "title": "Creative communication select",
-        "order": "24",
+        "order": "26",
         "meta_descr": "Creative communication select | sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -7256,7 +7296,7 @@
     "Creative communication.html": {
       "settings": {
         "title": "Creative communication introduction",
-        "order": "23",
+        "order": "25",
         "meta_descr": "Creative communication | sinhala ",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -7473,7 +7513,7 @@
     "The nature of creative communication.html": {
       "settings": {
         "title": "The nature of creative communication",
-        "order": "22",
+        "order": "24",
         "meta_descr": "The nature of creative communication | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -7690,7 +7730,7 @@
     "The need and importance of creative communication.html": {
       "settings": {
         "title": "The need and importance of creative communication",
-        "order": "21",
+        "order": "23",
         "meta_descr": "The need and importance of creative communication",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -7907,7 +7947,7 @@
     "Elements of Creativity.html": {
       "settings": {
         "title": "Elements of Creativity",
-        "order": "20",
+        "order": "22",
         "meta_descr": "Elements of Creativity | sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -8124,7 +8164,7 @@
     "Creativity.html": {
       "settings": {
         "title": "Creativity",
-        "order": "19",
+        "order": "21",
         "meta_descr": "Creativity | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -8341,7 +8381,7 @@
     "Creative essay.html": {
       "settings": {
         "title": "Creative essay",
-        "order": "18",
+        "order": "20",
         "meta_descr": "Creative essay | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -8558,7 +8598,7 @@
     "News .html": {
       "settings": {
         "title": "News 1",
-        "order": "17",
+        "order": "19",
         "meta_descr": "News  | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -8775,7 +8815,7 @@
     "Features .html": {
       "settings": {
         "title": "Features 1",
-        "order": "16",
+        "order": "18",
         "meta_descr": "Features  | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -8992,7 +9032,7 @@
     "Editorial.html": {
       "settings": {
         "title": "Editorial",
-        "order": "15",
+        "order": "17",
         "meta_descr": "Editorial | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -9209,7 +9249,7 @@
     "Event management.html": {
       "settings": {
         "title": "Event management",
-        "order": "14",
+        "order": "16",
         "meta_descr": "Event management | Sinhal",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -9426,7 +9466,7 @@
     "Identify opportunities in case management.html": {
       "settings": {
         "title": "Identify opportunities in case management",
-        "order": "13",
+        "order": "15",
         "meta_descr": "Identify opportunities in case management | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -9643,7 +9683,7 @@
     "The role of the event manager.html": {
       "settings": {
         "title": "The role of the event manager",
-        "order": "12",
+        "order": "14",
         "meta_descr": "The role of the event manager | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -9860,7 +9900,7 @@
     "page40.html": {
       "settings": {
         "title": "Communication for development",
-        "order": "11",
+        "order": "13",
         "meta_descr": "Communication for development | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -10077,7 +10117,7 @@
     "Communication policies and media regulation.html": {
       "settings": {
         "title": "Communication policies and media regulation",
-        "order": "10",
+        "order": "12",
         "meta_descr": "Communication policies and media regulation | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -10294,7 +10334,7 @@
     "Media and Contemporary Trends in Sri Lanka select.html": {
       "settings": {
         "title": "Media and Contemporary Trends in Sri Lanka select",
-        "order": "9",
+        "order": "11",
         "meta_descr": "Media and Contemporary Trends in Sri Lanka select | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -10570,7 +10610,7 @@
     "Media Origin and Evolution of the Media in Sri Lanka.html": {
       "settings": {
         "title": "Media Origin and Evolution of the Media in Sri Lanka",
-        "order": "8",
+        "order": "10",
         "meta_descr": "Media Origin and Evolution of the Media in Sri Lanka | Sinhala",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>",
@@ -10788,7 +10828,7 @@
     "Deregulation.html": {
       "settings": {
         "title": "Deregulation | Regulation",
-        "order": "7",
+        "order": "9",
         "meta_descr": "Deregulation | Regulation",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -11008,7 +11048,7 @@
     "Production.html": {
       "settings": {
         "title": "Production",
-        "order": "6",
+        "order": "8",
         "meta_descr": "Production",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -11225,7 +11265,7 @@
     "404-not-found.html": {
       "settings": {
         "title": "404-Not-Found",
-        "order": "33",
+        "order": "35",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
       },
@@ -11397,7 +11437,7 @@
     "Universal Declaration of Human Rights.html": {
       "settings": {
         "title": "Universal Declaration of Human Rights",
-        "order": "5",
+        "order": "7",
         "meta_descr": "Universal Declaration of Human Rights",
         "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
@@ -11615,7 +11655,7 @@
     "The_role_of the_media .html": {
       "settings": {
         "title": "The role of the media",
-        "order": "4",
+        "order": "6",
         "meta_descr": "The role of the media",
         "meta_image": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>",
@@ -11876,7 +11916,7 @@
     "life-insurance-2025-best-financial-investment.html": {
       "settings": {
         "title": "Why Life Insurance Is the Best Financial Investment in 2025",
-        "order": "2",
+        "order": "4",
         "meta_descr": "Discover why life insurance in 2025 is smarter than ever. Learn about hybrid plans, digital platforms, and investment-linked policies for financial security.",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>\n<meta name=\"description\" content=\"Discover why life insurance in 2025 is smarter than ever. Learn about hybrid plans, digital platforms, and investment-linked policies for financial security.\">\n<meta name=\"keywords\" content=\"life insurance 2025, best life insurance plans, insurance investment, hybrid insurance policy, digital insurance platforms, investment linked insurance, affordable life insurance plans, life insurance for young adults, digital life insurance companies\">",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -12099,7 +12139,7 @@
           },
           "_name": "tab1",
           "_sourceTheme": "mobirise-amp",
-          "_customHTML": "<section class=\"mbr-section tab1 tab\" group=\"Toggles & Tabs\" plugins=\"amp-main, amp-selector\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Width\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"9\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <select name=\"tabsAmount\" title=\"Tabs\">\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradient\">\n        <input type=\"color\" name=\"activeColor\" title=\"Active\" value=\"#ffe440\">\n        <input type=\"color\" name=\"tabColor\" title=\"Tab Color\" value=\"#ffffff\">\n        <input type=\"color\" name=\"activeContent\" title=\"Content\" value=\"#f7f7f7\">\n        <input type=\"checkbox\" title=\"Border\" name=\"border\" checked>\n        <input type=\"color\" name=\"borderColor\" title=\"Border Color\" value=\"#f7f7f7\" condition=\"border\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-{{widthContent}}\">\n                <amp-selector role=\"tablist\" layout=\"container\" class=\"ampTabContainer mbr-flex flex-wrap\">\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" selected option=\"a\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-5\">English</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\">\n                        <span class=\"line\"></span>\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">Why Life Insurance Is Still the Smartest Financial Move in 2025</h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Introduction\n<br>\n<br>Financial stability is more important than ever in the present age of rising costs and economic uncertainty. Life insurance, too often underestimated by young working professionals, remains one of the most effective ways of establishing long-term security and family stability. In 2025, companies are introducing more flexible, tech-driven policies that make coverage easier to navigate and smarter than ever.\n<br>\n<br>1. Rising Cost of Living and Inflation\n<br>\n<br>While the inflation rate globally continues to be higher than before the pandemic, households feel squeezed. Life insurance acts as a monetary cushion, paying dependents to keep up their standard of life regardless of the breadwinner's death.\n<br>\n<br>2. Hybrid Insurance Plans\n<br>\n<br>Modern-day insurers are now packaging protection for health and life. It is saving premiums while providing broader coverage — a trend that is in very high demand among millennials and Gen Z.\n<br><br>[JS_CODE_0]\n<ins class=\"adsbygoogle\"\n     style=\"display:block; text-align:center;\"\n     data-ad-layout=\"in-article\"\n     data-ad-format=\"fluid\"\n     data-ad-client=\"ca-pub-1542170196956540\"\n     data-ad-slot=\"4905846586\"></ins>\n[JS_CODE_1]<br>\n<br>3. Digital Insurance Platforms\n<br>\n<br>Thanks to mobile apps and AI, buying and handling policies is easy. It takes minutes to compare quotations, calculate premiums, and sign digital contracts — all without having to wait for an eternity for the papers.\n<br>\n<br>4. Investment-Linked Policies\n<br>\n<br>Most insurance companies already have unit-linked schemes, where they invest some of your premium in stocks, bonds, or mutual funds. This gives policyholders protection as well as appreciation in wealth.\n<br>\n<br>Conclusion\n<br>\n<br>Life insurance is not all about death benefits — it's about planning and stability. With newer, technology-enabled plans, life insurance in 2025 is smarter, faster, and more rewarding.\n<br>\n<br>???? If you haven't reviewed your policy for a while, this year might be the time.<br></p>\n                    </div>\n\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"b\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\"></h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"></h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-class=\"{'mbr-pt-2': showTitle}\"></p>         \n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"c\" mbr-if=\"tabsAmount > 2\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Flexibility</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 2\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">Excellent Flexibility</h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, voluptatum delectus suscipit mollitia. Esse iure cum aliquid, velit odio itaque, enim, quisquam rerum ex inventore, expedita rem sint voluptate fugit. Nobis incidunt cum perferendis nemo ratione reiciendis voluptate eos error odio repudiandae quaerat temporibus, aut aspernatur quas ad officiis!</p>\n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"d\" mbr-if=\"tabsAmount > 3\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Performance</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 3\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                            Effective Engagement\n                        </h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium labore sapiente nostrum aliquid libero atque, nulla dignissimos, assumenda culpa veniam quam in numquam voluptatum omnis pariatur, ad error totam recusandae explicabo reprehenderit consequatur repudiandae optio sequi! Autem alias at repudiandae minima voluptate nemo aspernatur qui sequi deserunt, excepturi corporis voluptas.</p>\n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"e\" mbr-if=\"tabsAmount > 4\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Engagements</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 4\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                            Effective Engagement\n                        </h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dignissimos ad minima recusandae dicta perspiciatis cumque? Ut excepturi aliquid temporibus consectetur dolore ab facilis ipsa veritatis fuga nam, tempora, voluptatum officiis. Cupiditate eligendi, cum, fugiat esse ut nam, ex eius iste sunt consequuntur quia omnis. Itaque dolorum ullam quod at!</p>\n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"f\" mbr-if=\"tabsAmount > 5\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Engagements</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 5\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                            Effective Engagement\n                        </h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsam consequuntur, impedit fuga ad veritatis itaque facere dignissimos iste autem perferendis minus adipisci iure fugit id deserunt quisquam incidunt, unde ea? Harum eos, deleniti laborum dicta tenetur. Esse itaque neque repellat facilis nostrum, illum veritatis recusandae autem quam expedita quia.</p>\n                    </div>\n                </amp-selector>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section tab1 tab\" group=\"Toggles & Tabs\" plugins=\"amp-main, amp-selector\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Width\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"9\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <select name=\"tabsAmount\" title=\"Tabs\">\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradient\">\n        <input type=\"color\" name=\"activeColor\" title=\"Active\" value=\"#ffe440\">\n        <input type=\"color\" name=\"tabColor\" title=\"Tab Color\" value=\"#ffffff\">\n        <input type=\"color\" name=\"activeContent\" title=\"Content\" value=\"#f7f7f7\">\n        <input type=\"checkbox\" title=\"Border\" name=\"border\" checked>\n        <input type=\"color\" name=\"borderColor\" title=\"Border Color\" value=\"#f7f7f7\" condition=\"border\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-{{widthContent}}\">\n                <amp-selector role=\"tablist\" layout=\"container\" class=\"ampTabContainer mbr-flex flex-wrap\">\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" selected option=\"a\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-5\">English</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\">\n                        <span class=\"line\"></span>\n                        <h1 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">Why Life Insurance Is Still the Smartest Financial Move in 2025</h1>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\"><b>Introduction\n</b><br>\n<br>Financial stability is more important than ever in the present age of rising costs and economic uncertainty. Life insurance, too often underestimated by young working professionals, remains one of the most effective ways of establishing long-term security and family stability. In 2025, companies are introducing more flexible, tech-driven policies that make coverage easier to navigate and smarter than ever.\n<br>\n<br><b>1. Rising Cost of Living and Inflation\n</b><br>\n<br>While the inflation rate globally continues to be higher than before the pandemic, households feel squeezed. Life insurance acts as a monetary cushion, paying dependents to keep up their standard of life regardless of the breadwinner's death.\n<br>\n<br><b>2. Hybrid Insurance Plans\n</b><br>\n<br>Modern-day insurers are now packaging protection for health and life. It is saving premiums while providing broader coverage — a trend that is in very high demand among millennials and Gen Z.\n<br><br>[JS_CODE_0]\n<ins class=\"adsbygoogle\" style=\"display:block; text-align:center;\" data-ad-layout=\"in-article\" data-ad-format=\"fluid\" data-ad-client=\"ca-pub-1542170196956540\" data-ad-slot=\"4905846586\"></ins>\n[JS_CODE_1]<br>\n<br><b>3. Digital Insurance Platforms\n<br></b>\n<br>Thanks to mobile apps and AI, buying and handling policies is easy. It takes minutes to compare quotations, calculate premiums, and sign digital contracts — all without having to wait for an eternity for the papers.\n<br>\n<br><b>4. Investment-Linked Policies\n</b><br>\n<br>Most insurance companies already have unit-linked schemes, where they invest some of your premium in stocks, bonds, or mutual funds. This gives policyholders protection as well as appreciation in wealth.\n<br>\n<br><b>Conclusion\n<br></b>\n<br>Life insurance is not all about death benefits — it's about planning and stability. With newer, technology-enabled plans, life insurance in 2025 is smarter, faster, and more rewarding.\n<br>\n<br>???? If you haven't reviewed your policy for a while, this year might be the time.<br></p>\n                    </div>\n\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"b\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\"></h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"></h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-class=\"{'mbr-pt-2': showTitle}\"></p>         \n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"c\" mbr-if=\"tabsAmount > 2\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Flexibility</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 2\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">Excellent Flexibility</h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, voluptatum delectus suscipit mollitia. Esse iure cum aliquid, velit odio itaque, enim, quisquam rerum ex inventore, expedita rem sint voluptate fugit. Nobis incidunt cum perferendis nemo ratione reiciendis voluptate eos error odio repudiandae quaerat temporibus, aut aspernatur quas ad officiis!</p>\n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"d\" mbr-if=\"tabsAmount > 3\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Performance</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 3\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                            Effective Engagement\n                        </h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium labore sapiente nostrum aliquid libero atque, nulla dignissimos, assumenda culpa veniam quam in numquam voluptatum omnis pariatur, ad error totam recusandae explicabo reprehenderit consequatur repudiandae optio sequi! Autem alias at repudiandae minima voluptate nemo aspernatur qui sequi deserunt, excepturi corporis voluptas.</p>\n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"e\" mbr-if=\"tabsAmount > 4\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Engagements</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 4\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                            Effective Engagement\n                        </h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dignissimos ad minima recusandae dicta perspiciatis cumque? Ut excepturi aliquid temporibus consectetur dolore ab facilis ipsa veritatis fuga nam, tempora, voluptatum officiis. Cupiditate eligendi, cum, fugiat esse ut nam, ex eius iste sunt consequuntur quia omnis. Itaque dolorum ullam quod at!</p>\n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"f\" mbr-if=\"tabsAmount > 5\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Engagements</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 5\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                            Effective Engagement\n                        </h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsam consequuntur, impedit fuga ad veritatis itaque facere dignissimos iste autem perferendis minus adipisci iure fugit id deserunt quisquam incidunt, unde ea? Harum eos, deleniti laborum dicta tenetur. Esse itaque neque repellat facilis nostrum, illum veritatis recusandae autem quam expedita quia.</p>\n                    </div>\n                </amp-selector>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_anchor": "tab1-6k",
           "_isUserblock": true,
           "_cid": "uYriLcFcKD",
@@ -12140,7 +12180,7 @@
     "best-personal-loans-mortgage-rates-2025.html": {
       "settings": {
         "title": "Best Personal Loans and Mortgage Rates in 2025",
-        "order": "3",
+        "order": "5",
         "meta_descr": "Compare personal loans, mortgage rates, and refinancing options in 2025. Learn how to secure low interest loans and easy approval for your financial needs.",
         "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>\n<title>Best Personal Loans and Mortgage Rates in 2025</title>\n<meta name=\"description\" content=\"Compare personal loans, mortgage rates, and refinancing options in 2025. Learn how to secure low interest loans and easy approval for your financial needs.\">\n<meta name=\"keywords\" content=\"best personal loans 2025, mortgage rates 2025, low interest loans, student loan refinancing, home loan calculator, debt consolidation loans, personal loan approval tips, best mortgage lenders 2025, loan for bad credit 2025\">",
         "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
@@ -12429,10 +12469,10 @@
         }
       ]
     },
-    "page51.html": {
+    "financial-select.html": {
       "settings": {
         "title": "financial sector select",
-        "order": "1"
+        "order": "3"
       },
       "components": [
         {
@@ -12617,6 +12657,42 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@twoColor)": {
+                "background": "linear-gradient(225deg, @bg-value 0, @twoColorBg 75%)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@showTitle), (@showSubtitle)": {
+              "@media (max-width: 991px)": {
+                ".btn-container when (@showButton)": {
+                  "padding-top": "2rem"
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            }
+          },
+          "_name": "info1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"info1\" group=\"Testimonials & Info\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\" checked>\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\" condition=\"(showTitle || showSubtitle) && showButton\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" value=\"#ffffff\" name=\"twoColorBg\" condition=\"twoColor && bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"mbr-section-title align-left mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Global Debt Surge 2025: What Investors Must Know</h2>\n                <h3 class=\"mbr-text align-left mbr-fonts-style mbr-regular mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-text\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum atque, rerum excepturi fuga reprehenderit laudantium, dolorum autem iusto ipsum harum perspiciatis nobis sequi sint.\n                </h3>\n            </div>\n            <div class=\"btn-container mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-4 align-center mbr-flex\" mbr-if=\"showButton\">\n                <div class=\"mbr-section-btn mbr-m-auto\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"global-debt-surge-2025-investment-outlook.html\" data-app-placeholder=\"Type Text\">Read Now</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "info1-71",
+          "_isUserblock": true,
+          "_cid": "uYDRrdPwbe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
@@ -12629,6 +12705,366 @@
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#20202a\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                <a href=\"About Us.html\" class=\"text-danger\">About us</a>&nbsp; &nbsp; &nbsp;<a href=\"Terms and Conditions.html\" class=\"text-danger\">Terms and Conditions</a>&nbsp; &nbsp;<a href=\"Contact Us.html\" class=\"text-danger\">Contact Us</a>&nbsp; &nbsp;<a href=\"page4.html\" class=\"text-danger\">Privacy Policy</a>&nbsp; &nbsp;<a href=\"Affiliate Disclosure.html\" class=\"text-danger\">Affiliate Disclosure</a><br><br>© Copyright 2022 Media University - All Rights Reserved<br>Developed by Chamith Adhikari&nbsp;</p>\n        </div>\n    </div>\n</section>",
           "_cid": "t6zgP4fx0L",
           "_anchor": "footer1-6t",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    },
+    "page53.html": {
+      "settings": {
+        "title": "Cybersecurity & VPNs — Real-World Threats, Adoption, and Trends for 2025",
+        "order": "1",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "min-height": "56px",
+            "background-color": "@menuBgColor",
+            ".brand-name": {
+              "margin-right": "2rem",
+              "margin-top": "6px",
+              "a": {
+                "font-weight": "700"
+              },
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".menu-container": {
+              "padding": "0 30px"
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background": "@hamburgerColor"
+            },
+            ".nav-dropdown .dropdown-menu .dropdown-item": {
+              "font-weight": "700",
+              "width": "100%",
+              "text-align": "inherit"
+            },
+            "a.nav-link": {
+              "font-weight": "700"
+            },
+            ".navbar": {
+              "min-height": "56px",
+              "background": "@menuBgColor",
+              ".navbar-collapse": {
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "padding": "0",
+              "margin": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".navbar-expand-lg .navbar-nav .nav-link": {
+                "padding": "13px 0"
+              },
+              ".navbar-nav .nav-link": {
+                "margin": "0"
+              },
+              ".navbar-nav .nav-item": {
+                "margin": "0 18px -5px !important"
+              },
+              ".navbar-buttons": {
+                "margin-left": "2rem"
+              }
+            },
+            ".navbar-buttons .btn": {
+              "box-shadow": "none !important",
+              "transform": "none !important"
+            },
+            ".builder-sidebar, .collapse, .navbar.navbar-expand-lg .dropdown .dropdown-menu": {
+              "background-color": "@menuBgColor"
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-nav a": {
+                "padding": "0 !important",
+                "margin": "0 0 1rem !important"
+              },
+              ".dropdown-menu": {
+                "padding": "0"
+              }
+            },
+            ".close-sidebar:focus": {
+              "outline": "2px auto @primaryColor"
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "img": {
+                "height": "~\"@{logoHeight}px\" !important",
+                "object-fit": "contain"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"30\" max=\"120\" value=\"40\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"30\" max=\"120\" value=\"40\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked=\"\">\n        <header>Style</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/ww-80x80.png\" layout=\"responsive\" width=\"40\" height=\"40\" alt=\"Media University Logo\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/ww-80x80.png\" alt=\"Media University Logo\" data-aspectratio=\"1\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><a href=\"index.html\" class=\"text-black\">Media University&nbsp;</a></p></div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-black dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Select A Grade&nbsp;</a>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"text-black dropdown-item text-primary\" href=\"Grade 12.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Grade 12</a>\n                        <a class=\"text-black dropdown-item text-primary\" href=\"Grade 13.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Grade 13</a>\n                    </div>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-black text-primary\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Privacy Policy</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-black text-primary\" href=\"About Us.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        About Us</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-info-outline\" href=\"live.html\" data-app-placeholder=\"Type Text\">Live Now</a> <a class=\"btn btn-sm btn-danger\" href=\"subscribe.html\" data-app-placeholder=\"Type Text\">Subscribe</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_cid": "t6mMLN2H98",
+          "_anchor": "menu2-72",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#20202a\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                <a href=\"About Us.html\" class=\"text-danger\">About us</a>&nbsp; &nbsp; &nbsp;<a href=\"Terms and Conditions.html\" class=\"text-danger\">Terms and Conditions</a>&nbsp; &nbsp;<a href=\"Contact Us.html\" class=\"text-danger\">Contact Us</a>&nbsp; &nbsp;<a href=\"page4.html\" class=\"text-danger\">Privacy Policy</a>&nbsp; &nbsp;<a href=\"Affiliate Disclosure.html\" class=\"text-danger\">Affiliate Disclosure</a><br><br>© Copyright 2022 Media University - All Rights Reserved<br>Developed by Chamith Adhikari&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_cid": "t6zgP4fx0L",
+          "_anchor": "footer1-73",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    },
+    "global-debt-surge-2025-investment-outlook.html": {
+      "settings": {
+        "title": "Global Debt Surge 2025: What Investors Must Know",
+        "order": "2",
+        "meta_descr": "Global debt has hit record levels in 2025. Discover what rising public and private debt means for interest rates, refinancing risks, and smart investment strategies.",
+        "header_custom": "<script async custom-element=\"amp-auto-ads\"\n        src=\"https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js\">\n</script>\n\n\n<meta name=\"description\" content=\"Global debt has hit record levels in 2025. Discover what rising public and private debt means for interest rates, refinancing risk, and investment strategy.\">\n<meta name=\"keywords\" content=\"global debt 2025, public debt surge, debt to GDP ratio, debt servicing costs, sovereign debt risk, high debt economies, investment strategy debt, refinancing risk, bond yield pressure 2025\">",
+        "footer_custom": "<amp-auto-ads type=\"adsense\"\n        data-ad-client=\"ca-pub-1542170196956540\">\n</amp-auto-ads>"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "min-height": "56px",
+            "background-color": "@menuBgColor",
+            ".brand-name": {
+              "margin-right": "2rem",
+              "margin-top": "6px",
+              "a": {
+                "font-weight": "700"
+              },
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".menu-container": {
+              "padding": "0 30px"
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background": "@hamburgerColor"
+            },
+            ".nav-dropdown .dropdown-menu .dropdown-item": {
+              "font-weight": "700",
+              "width": "100%",
+              "text-align": "inherit"
+            },
+            "a.nav-link": {
+              "font-weight": "700"
+            },
+            ".navbar": {
+              "min-height": "56px",
+              "background": "@menuBgColor",
+              ".navbar-collapse": {
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "padding": "0",
+              "margin": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".navbar-expand-lg .navbar-nav .nav-link": {
+                "padding": "13px 0"
+              },
+              ".navbar-nav .nav-link": {
+                "margin": "0"
+              },
+              ".navbar-nav .nav-item": {
+                "margin": "0 18px -5px !important"
+              },
+              ".navbar-buttons": {
+                "margin-left": "2rem"
+              }
+            },
+            ".navbar-buttons .btn": {
+              "box-shadow": "none !important",
+              "transform": "none !important"
+            },
+            ".builder-sidebar, .collapse, .navbar.navbar-expand-lg .dropdown .dropdown-menu": {
+              "background-color": "@menuBgColor"
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-nav a": {
+                "padding": "0 !important",
+                "margin": "0 0 1rem !important"
+              },
+              ".dropdown-menu": {
+                "padding": "0"
+              }
+            },
+            ".close-sidebar:focus": {
+              "outline": "2px auto @primaryColor"
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "img": {
+                "height": "~\"@{logoHeight}px\" !important",
+                "object-fit": "contain"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"30\" max=\"120\" value=\"40\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"30\" max=\"120\" value=\"40\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked=\"\">\n        <header>Style</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/ww-80x80.png\" layout=\"responsive\" width=\"40\" height=\"40\" alt=\"Media University Logo\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/ww-80x80.png\" alt=\"Media University Logo\" data-aspectratio=\"1\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\"><a href=\"index.html\" class=\"text-black\">Media University&nbsp;</a></p></div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-black dropdown-toggle\" href=\"https://mobiri.se\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\">Select A Grade&nbsp;</a>\n                    <div class=\"dropdown-menu\">\n                        <a class=\"text-black dropdown-item text-primary\" href=\"Grade 12.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Grade 12</a>\n                        <a class=\"text-black dropdown-item text-primary\" href=\"Grade 13.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Grade 13</a>\n                    </div>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-black text-primary\" href=\"page4.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Privacy Policy</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-black text-primary\" href=\"About Us.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        About Us</a>\n                </li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-info-outline\" href=\"live.html\" data-app-placeholder=\"Type Text\">Live Now</a> <a class=\"btn btn-sm btn-danger\" href=\"subscribe.html\" data-app-placeholder=\"Type Text\">Subscribe</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_cid": "t6mMLN2H98",
+          "_anchor": "menu2-6w",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".tab-button[selected]": {
+              "outline": "none",
+              "background": "@activeColor",
+              ".tab-head": {
+                "color": "contrast(@activeColor)"
+              }
+            },
+            ".tab-button": {
+              "-webkit-flex-grow": "1",
+              "flex-grow": "1",
+              "cursor": "pointer",
+              "background": "@tabColor",
+              "& when (@border)": {
+                "border": "2px solid @borderColor"
+              },
+              "& when (@gradient)": {
+                "background": "linear-gradient(225deg, @activeColor 0, @tabColor 75%)"
+              },
+              "box-shadow": "0 10px 25px 0 rgba(0, 0, 0, 0.15)",
+              "transition": "box-shadow 0.25s ease-in",
+              "margin": "5px 10px 24px",
+              "border-radius": "25px",
+              "&:hover": {
+                "box-shadow": "0 2px 5px 0 rgba(0, 0, 0, 0.15)"
+              }
+            },
+            ".line when (@border)": {
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "height": "100%",
+              "width": "8px",
+              "background": "@borderColor"
+            },
+            ".tab-content": {
+              "& when (@border)": {
+                "border": "2px solid @borderColor"
+              },
+              "margin-top": "1rem",
+              "position": "relative",
+              "display": "none",
+              "width": "100%",
+              "order": "1",
+              "background": "@activeContent",
+              "border-radius": "8px",
+              "transition": "box-shadow 0.25s ease-in",
+              "&:hover": {
+                "box-shadow": "0 15px 30px 0 rgba(0, 0, 0, 0.15)"
+              }
+            },
+            ".tab-button[selected] + .tab-content": {
+              "display": "block"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "tab1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"mbr-section tab1 tab\" group=\"Toggles & Tabs\" plugins=\"amp-main, amp-selector\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Width\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <select name=\"tabsAmount\" title=\"Tabs\">\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradient\">\n        <input type=\"color\" name=\"activeColor\" title=\"Active\" value=\"#ffe440\">\n        <input type=\"color\" name=\"tabColor\" title=\"Tab Color\" value=\"#ffffff\">\n        <input type=\"color\" name=\"activeContent\" title=\"Content\" value=\"#f7f7f7\">\n        <input type=\"checkbox\" title=\"Border\" name=\"border\" checked>\n        <input type=\"color\" name=\"borderColor\" title=\"Border Color\" value=\"#f7f7f7\" condition=\"border\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-{{widthContent}}\">\n                <amp-selector role=\"tablist\" layout=\"container\" class=\"ampTabContainer mbr-flex flex-wrap\">\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" selected option=\"a\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-5\">English</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\">\n                        <span class=\"line\"></span>\n                        <h1 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">Global Debt Surge 2025: What Investors Must Know</h1>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\"><b>Introduction\n<br></b>\n<br>By 2025, levels of debt were at historic highs all over the world, whipping up fears across markets and among policymakers. As an investor, this macro backdrop isn't noise — it affects interest rates, inflation, and capital inflows. Understanding the dynamics of debt today can put you ahead in terms of positioning your portfolio for risks and opportunities tomorrow.\n<br>\n<br><b>1. Record Highs: Global Debt in 2025\n<br></b>\n<br>World debt reached nearly USD 337.7 trillion as of Q2 2025.\n<br>\n<br>The debt is over 235% of global GDP, with government debt rising faster than private debt.\n<br>\n<br>Sovereign and corporate borrowing in 2024 crossed USD 25 trillion, nearly three times the level in 2007.\n<br>\n<br>The accumulation of this debt raises severe issues about sustainability, interest payments, and fiscal maneuverability.\n<br><br>[JS_CODE_0]\n<ins class=\"adsbygoogle\"\n     style=\"display:block; text-align:center;\"\n     data-ad-layout=\"in-article\"\n     data-ad-format=\"fluid\"\n     data-ad-client=\"ca-pub-1542170196956540\"\n     data-ad-slot=\"4905846586\"></ins>\n[JS_CODE_1]<br>\n<br><b>2. Composition of Debt: Public and Private\n<br></b>\n<br>Public debt now forms an ever-larger share of the total burden, especially in advanced economies.\n<br>\n<br>Private-sector debt (households and nonfinancial corporates) decreased in some regions, due to tighter lending conditions as well as increased rates.\n<br>\n<br>Developing nations are especially vulnerable: most invest a very high percentage of government revenues just in meeting debt service.\n<br>\n<br><b>3. The Cost of Debt: Interest Payments &amp; Refinancing Risk\n<br></b>\n<br>As rates remain high, debt servicing is a growing larger burden on public finances.\n<br>\n<br>In OECD countries, debt service rose to 3.3% of national income in 2024, a record since 2007.\n<br>\n<br>40% of sovereign and 38% of corporate bonds have to refinance by 2027, which is refinancing stress.\n<br>\n<br>If markets persist in tightening or rates rise further, most issuers will be stretched to roll over their debt.\n<br>\n<br><b>4. What It Means for Investors\n<br></b>\n<br>Interest rate sensitivity: Bond yields can see upward pressure as credit risk rises.\n<br>\n<br>Credit spreads widening: High-yield debt and emerging market debt may see out-of-proportion losses in a risk-off environment.\n<br>\n<br>Safe assets in demand: Investors will push sovereign debt in stable economies lower.\n<br>\n<br>Equity vs. debt trade-offs: High debt levels can weigh on growth expectations, affecting stock valuations.\n<br><br>[JS_CODE_2]\n<ins class=\"adsbygoogle\"\n     style=\"display:block; text-align:center;\"\n     data-ad-layout=\"in-article\"\n     data-ad-format=\"fluid\"\n     data-ad-client=\"ca-pub-1542170196956540\"\n     data-ad-slot=\"4905846586\"></ins>\n[JS_CODE_3]<br>\n<br><b>5. Strategic Moves You Can Make\n<br></b>\n<br>Don't over-leverage in your own positions — debt risk is speculative.\n<br>\n<br>Use shorter maturities on any debt exposure to moderate sensitivity to movement in rates.\n<br>\n<br>Global diversification — parts of the globe will be more resistant to debt stress than others.\n<br>\n<br>Keep track of changes in fiscal policy. Tighter budgeted areas or widening deficits may see abrupt rate pressure.\n<br>\n<br>Hedge where possible — fixed income hedges, derivatives, or use cash buffers to soak up shock.\n<br>\n<br><b>Conclusion\n</b><br>\n<br>The 2025 debt explosion globally is not just a figure — it's a structural force reshaping interest rates, fiscal space, and asset prices across the globe. As an investor, staying vigilant, managing leverage, and preparing for a shift in credit markets will be crucial. In a high-debt world, risk management and capital protection are as important as growth.<br></p>\n                    </div>\n\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"b\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\"></h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\"></h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-7\" mbr-class=\"{'mbr-pt-2': showTitle}\"></p>         \n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"c\" mbr-if=\"tabsAmount > 2\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Flexibility</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 2\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">Excellent Flexibility</h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem, voluptatum delectus suscipit mollitia. Esse iure cum aliquid, velit odio itaque, enim, quisquam rerum ex inventore, expedita rem sint voluptate fugit. Nobis incidunt cum perferendis nemo ratione reiciendis voluptate eos error odio repudiandae quaerat temporibus, aut aspernatur quas ad officiis!</p>\n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"d\" mbr-if=\"tabsAmount > 3\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Performance</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 3\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                            Effective Engagement\n                        </h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium labore sapiente nostrum aliquid libero atque, nulla dignissimos, assumenda culpa veniam quam in numquam voluptatum omnis pariatur, ad error totam recusandae explicabo reprehenderit consequatur repudiandae optio sequi! Autem alias at repudiandae minima voluptate nemo aspernatur qui sequi deserunt, excepturi corporis voluptas.</p>\n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"e\" mbr-if=\"tabsAmount > 4\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Engagements</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 4\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                            Effective Engagement\n                        </h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dignissimos ad minima recusandae dicta perspiciatis cumque? Ut excepturi aliquid temporibus consectetur dolore ab facilis ipsa veritatis fuga nam, tempora, voluptatum officiis. Cupiditate eligendi, cum, fugiat esse ut nam, ex eius iste sunt consequuntur quia omnis. Itaque dolorum ullam quod at!</p>\n                    </div>\n                    <div role=\"tab\" class=\"tab-button align-center text-black\" option=\"f\" mbr-if=\"tabsAmount > 5\">\n                        <h3 class=\"tab-head mbr-fonts-style mbr-black mbr-bold mbr-py-1 mbr-px-3\" mbr-theme-style=\"display-7\">Engagements</h3>\n                    </div>\n                    <div role=\"tabpanel\" class=\"tab-content mbr-p-4 text-black\" mbr-if=\"tabsAmount > 5\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-semibold\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                            Effective Engagement\n                        </h2>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-class=\"{'mbr-pt-2': showTitle}\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsam consequuntur, impedit fuga ad veritatis itaque facere dignissimos iste autem perferendis minus adipisci iure fugit id deserunt quisquam incidunt, unde ea? Harum eos, deleniti laborum dicta tenetur. Esse itaque neque repellat facilis nostrum, illum veritatis recusandae autem quam expedita quia.</p>\n                    </div>\n                </amp-selector>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_anchor": "tab1-70",
+          "_isUserblock": true,
+          "_cid": "uYDAMZTNu2",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542170196956540\"\n     crossorigin=\"anonymous\"></script>",
+            "<script>\n     (adsbygoogle = window.adsbygoogle || []).push({});\n</script>",
+            "<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1542170196956540\"\n     crossorigin=\"anonymous\"></script>",
+            "<script>\n     (adsbygoogle = window.adsbygoogle || []).push({});\n</script>"
+          ],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#20202a\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                <a href=\"About Us.html\" class=\"text-danger\">About us</a>&nbsp; &nbsp; &nbsp;<a href=\"Terms and Conditions.html\" class=\"text-danger\">Terms and Conditions</a>&nbsp; &nbsp;<a href=\"Contact Us.html\" class=\"text-danger\">Contact Us</a>&nbsp; &nbsp;<a href=\"page4.html\" class=\"text-danger\">Privacy Policy</a>&nbsp; &nbsp;<a href=\"Affiliate Disclosure.html\" class=\"text-danger\">Affiliate Disclosure</a><br><br>© Copyright 2022 Media University - All Rights Reserved<br>Developed by Chamith Adhikari&nbsp;</p>\n        </div>\n    </div>\n</section>",
+          "_cid": "t6zgP4fx0L",
+          "_anchor": "footer1-6x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
